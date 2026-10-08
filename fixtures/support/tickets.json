@@ -1,0 +1,5495 @@
+{
+ "meta": {
+  "note": "El tema NO viene etiquetado por la fuente: connectors/support.py lo clasifica por palabras clave en código. `intended_topic` solo lo usa fixtures/validate.py para comprobar el clasificador."
+ },
+ "tickets": [
+  {
+   "id": "TCK-00001",
+   "day_offset": 1,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00002",
+   "day_offset": 1,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00003",
+   "day_offset": 1,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00004",
+   "day_offset": 1,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00005",
+   "day_offset": 1,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00006",
+   "day_offset": 1,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00007",
+   "day_offset": 1,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00008",
+   "day_offset": 1,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00009",
+   "day_offset": 1,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00010",
+   "day_offset": 1,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00011",
+   "day_offset": 1,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00012",
+   "day_offset": 1,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00084",
+   "day_offset": 1,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00085",
+   "day_offset": 1,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00096",
+   "day_offset": 1,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00097",
+   "day_offset": 1,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00098",
+   "day_offset": 1,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00113",
+   "day_offset": 1,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00114",
+   "day_offset": 1,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00127",
+   "day_offset": 1,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00013",
+   "day_offset": 2,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00014",
+   "day_offset": 2,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00015",
+   "day_offset": 2,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00016",
+   "day_offset": 2,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00017",
+   "day_offset": 2,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00018",
+   "day_offset": 2,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00019",
+   "day_offset": 2,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00020",
+   "day_offset": 2,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00021",
+   "day_offset": 2,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00022",
+   "day_offset": 2,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00023",
+   "day_offset": 2,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00024",
+   "day_offset": 2,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00086",
+   "day_offset": 2,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00087",
+   "day_offset": 2,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00099",
+   "day_offset": 2,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00100",
+   "day_offset": 2,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00115",
+   "day_offset": 2,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00116",
+   "day_offset": 2,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00128",
+   "day_offset": 2,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00025",
+   "day_offset": 3,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00026",
+   "day_offset": 3,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00027",
+   "day_offset": 3,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00028",
+   "day_offset": 3,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00029",
+   "day_offset": 3,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00030",
+   "day_offset": 3,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00031",
+   "day_offset": 3,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00032",
+   "day_offset": 3,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00033",
+   "day_offset": 3,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00034",
+   "day_offset": 3,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00035",
+   "day_offset": 3,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00088",
+   "day_offset": 3,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00101",
+   "day_offset": 3,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00102",
+   "day_offset": 3,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00117",
+   "day_offset": 3,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00118",
+   "day_offset": 3,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00036",
+   "day_offset": 4,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00037",
+   "day_offset": 4,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00038",
+   "day_offset": 4,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00039",
+   "day_offset": 4,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00040",
+   "day_offset": 4,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00041",
+   "day_offset": 4,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00042",
+   "day_offset": 4,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00043",
+   "day_offset": 4,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00044",
+   "day_offset": 4,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00045",
+   "day_offset": 4,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00046",
+   "day_offset": 4,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00047",
+   "day_offset": 4,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00089",
+   "day_offset": 4,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00090",
+   "day_offset": 4,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00103",
+   "day_offset": 4,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00104",
+   "day_offset": 4,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00119",
+   "day_offset": 4,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00120",
+   "day_offset": 4,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00129",
+   "day_offset": 4,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00048",
+   "day_offset": 5,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00049",
+   "day_offset": 5,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00050",
+   "day_offset": 5,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00051",
+   "day_offset": 5,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00052",
+   "day_offset": 5,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00053",
+   "day_offset": 5,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00054",
+   "day_offset": 5,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00055",
+   "day_offset": 5,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00056",
+   "day_offset": 5,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00057",
+   "day_offset": 5,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00058",
+   "day_offset": 5,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00059",
+   "day_offset": 5,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00060",
+   "day_offset": 5,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00091",
+   "day_offset": 5,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00092",
+   "day_offset": 5,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00105",
+   "day_offset": 5,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00106",
+   "day_offset": 5,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00107",
+   "day_offset": 5,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00121",
+   "day_offset": 5,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00122",
+   "day_offset": 5,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00130",
+   "day_offset": 5,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00061",
+   "day_offset": 6,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00062",
+   "day_offset": 6,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00063",
+   "day_offset": 6,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00064",
+   "day_offset": 6,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00065",
+   "day_offset": 6,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00066",
+   "day_offset": 6,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00067",
+   "day_offset": 6,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00068",
+   "day_offset": 6,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00069",
+   "day_offset": 6,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00070",
+   "day_offset": 6,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00071",
+   "day_offset": 6,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00093",
+   "day_offset": 6,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00108",
+   "day_offset": 6,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00109",
+   "day_offset": 6,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00123",
+   "day_offset": 6,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00124",
+   "day_offset": 6,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00072",
+   "day_offset": 7,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00073",
+   "day_offset": 7,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00074",
+   "day_offset": 7,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00075",
+   "day_offset": 7,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00076",
+   "day_offset": 7,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00077",
+   "day_offset": 7,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00078",
+   "day_offset": 7,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00079",
+   "day_offset": 7,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00080",
+   "day_offset": 7,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00081",
+   "day_offset": 7,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00082",
+   "day_offset": 7,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00083",
+   "day_offset": 7,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00094",
+   "day_offset": 7,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00095",
+   "day_offset": 7,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00110",
+   "day_offset": 7,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00111",
+   "day_offset": 7,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00112",
+   "day_offset": 7,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00125",
+   "day_offset": 7,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00126",
+   "day_offset": 7,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00131",
+   "day_offset": 7,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00132",
+   "day_offset": 8,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00133",
+   "day_offset": 8,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00134",
+   "day_offset": 8,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00135",
+   "day_offset": 8,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00136",
+   "day_offset": 8,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00137",
+   "day_offset": 8,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00138",
+   "day_offset": 8,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00177",
+   "day_offset": 8,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00178",
+   "day_offset": 8,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00189",
+   "day_offset": 8,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00190",
+   "day_offset": 8,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00205",
+   "day_offset": 8,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00206",
+   "day_offset": 8,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00216",
+   "day_offset": 8,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00139",
+   "day_offset": 9,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00140",
+   "day_offset": 9,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00141",
+   "day_offset": 9,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00142",
+   "day_offset": 9,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00143",
+   "day_offset": 9,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00144",
+   "day_offset": 9,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00179",
+   "day_offset": 9,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00180",
+   "day_offset": 9,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00191",
+   "day_offset": 9,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00192",
+   "day_offset": 9,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00207",
+   "day_offset": 9,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00217",
+   "day_offset": 9,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00145",
+   "day_offset": 10,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00146",
+   "day_offset": 10,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00147",
+   "day_offset": 10,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00148",
+   "day_offset": 10,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00149",
+   "day_offset": 10,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00150",
+   "day_offset": 10,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00181",
+   "day_offset": 10,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00193",
+   "day_offset": 10,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00194",
+   "day_offset": 10,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00208",
+   "day_offset": 10,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00218",
+   "day_offset": 10,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00151",
+   "day_offset": 11,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00152",
+   "day_offset": 11,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00153",
+   "day_offset": 11,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00154",
+   "day_offset": 11,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00155",
+   "day_offset": 11,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00156",
+   "day_offset": 11,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00182",
+   "day_offset": 11,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00183",
+   "day_offset": 11,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00195",
+   "day_offset": 11,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00196",
+   "day_offset": 11,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00209",
+   "day_offset": 11,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00210",
+   "day_offset": 11,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00219",
+   "day_offset": 11,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00157",
+   "day_offset": 12,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00158",
+   "day_offset": 12,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00159",
+   "day_offset": 12,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00160",
+   "day_offset": 12,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00161",
+   "day_offset": 12,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00162",
+   "day_offset": 12,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00163",
+   "day_offset": 12,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00184",
+   "day_offset": 12,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00185",
+   "day_offset": 12,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00197",
+   "day_offset": 12,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00198",
+   "day_offset": 12,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00199",
+   "day_offset": 12,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00211",
+   "day_offset": 12,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00212",
+   "day_offset": 12,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00220",
+   "day_offset": 12,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00164",
+   "day_offset": 13,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00165",
+   "day_offset": 13,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00166",
+   "day_offset": 13,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00167",
+   "day_offset": 13,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00168",
+   "day_offset": 13,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00169",
+   "day_offset": 13,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00186",
+   "day_offset": 13,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00200",
+   "day_offset": 13,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00201",
+   "day_offset": 13,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00213",
+   "day_offset": 13,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00170",
+   "day_offset": 14,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00171",
+   "day_offset": 14,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00172",
+   "day_offset": 14,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00173",
+   "day_offset": 14,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00174",
+   "day_offset": 14,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00175",
+   "day_offset": 14,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00176",
+   "day_offset": 14,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00187",
+   "day_offset": 14,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00188",
+   "day_offset": 14,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00202",
+   "day_offset": 14,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00203",
+   "day_offset": 14,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00204",
+   "day_offset": 14,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00214",
+   "day_offset": 14,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00215",
+   "day_offset": 14,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00221",
+   "day_offset": 14,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00222",
+   "day_offset": 15,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00223",
+   "day_offset": 15,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00224",
+   "day_offset": 15,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00243",
+   "day_offset": 15,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00244",
+   "day_offset": 15,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00254",
+   "day_offset": 15,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00255",
+   "day_offset": 15,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00256",
+   "day_offset": 15,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00272",
+   "day_offset": 15,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00281",
+   "day_offset": 15,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00225",
+   "day_offset": 16,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00226",
+   "day_offset": 16,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00227",
+   "day_offset": 16,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00245",
+   "day_offset": 16,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00257",
+   "day_offset": 16,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00258",
+   "day_offset": 16,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00273",
+   "day_offset": 16,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00282",
+   "day_offset": 16,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00228",
+   "day_offset": 17,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00229",
+   "day_offset": 17,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00230",
+   "day_offset": 17,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00246",
+   "day_offset": 17,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00259",
+   "day_offset": 17,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00260",
+   "day_offset": 17,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00274",
+   "day_offset": 17,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00283",
+   "day_offset": 17,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00231",
+   "day_offset": 18,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00232",
+   "day_offset": 18,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00233",
+   "day_offset": 18,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00247",
+   "day_offset": 18,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00248",
+   "day_offset": 18,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00261",
+   "day_offset": 18,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00262",
+   "day_offset": 18,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00263",
+   "day_offset": 18,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00275",
+   "day_offset": 18,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00284",
+   "day_offset": 18,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00234",
+   "day_offset": 19,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00235",
+   "day_offset": 19,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00236",
+   "day_offset": 19,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00249",
+   "day_offset": 19,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00250",
+   "day_offset": 19,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00264",
+   "day_offset": 19,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00265",
+   "day_offset": 19,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00266",
+   "day_offset": 19,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00276",
+   "day_offset": 19,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00277",
+   "day_offset": 19,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00285",
+   "day_offset": 19,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00237",
+   "day_offset": 20,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00238",
+   "day_offset": 20,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00239",
+   "day_offset": 20,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00251",
+   "day_offset": 20,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00267",
+   "day_offset": 20,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00268",
+   "day_offset": 20,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00278",
+   "day_offset": 20,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00240",
+   "day_offset": 21,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00241",
+   "day_offset": 21,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00242",
+   "day_offset": 21,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00252",
+   "day_offset": 21,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00253",
+   "day_offset": 21,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00269",
+   "day_offset": 21,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00270",
+   "day_offset": 21,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00271",
+   "day_offset": 21,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00279",
+   "day_offset": 21,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00280",
+   "day_offset": 21,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00286",
+   "day_offset": 21,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00287",
+   "day_offset": 22,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00288",
+   "day_offset": 22,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00289",
+   "day_offset": 22,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00306",
+   "day_offset": 22,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00307",
+   "day_offset": 22,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00317",
+   "day_offset": 22,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00318",
+   "day_offset": 22,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00319",
+   "day_offset": 22,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00334",
+   "day_offset": 22,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00343",
+   "day_offset": 22,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00290",
+   "day_offset": 23,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00291",
+   "day_offset": 23,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00292",
+   "day_offset": 23,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00308",
+   "day_offset": 23,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00320",
+   "day_offset": 23,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00321",
+   "day_offset": 23,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00335",
+   "day_offset": 23,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00344",
+   "day_offset": 23,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00293",
+   "day_offset": 24,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00294",
+   "day_offset": 24,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00309",
+   "day_offset": 24,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00322",
+   "day_offset": 24,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00323",
+   "day_offset": 24,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00336",
+   "day_offset": 24,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00345",
+   "day_offset": 24,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00295",
+   "day_offset": 25,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00296",
+   "day_offset": 25,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00297",
+   "day_offset": 25,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00310",
+   "day_offset": 25,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00311",
+   "day_offset": 25,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00324",
+   "day_offset": 25,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00325",
+   "day_offset": 25,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00337",
+   "day_offset": 25,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00346",
+   "day_offset": 25,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00298",
+   "day_offset": 26,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00299",
+   "day_offset": 26,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00300",
+   "day_offset": 26,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00312",
+   "day_offset": 26,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00313",
+   "day_offset": 26,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00326",
+   "day_offset": 26,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00327",
+   "day_offset": 26,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00328",
+   "day_offset": 26,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00338",
+   "day_offset": 26,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00339",
+   "day_offset": 26,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00347",
+   "day_offset": 26,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00301",
+   "day_offset": 27,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00302",
+   "day_offset": 27,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00314",
+   "day_offset": 27,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00329",
+   "day_offset": 27,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00330",
+   "day_offset": 27,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00340",
+   "day_offset": 27,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00303",
+   "day_offset": 28,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00304",
+   "day_offset": 28,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00305",
+   "day_offset": 28,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00315",
+   "day_offset": 28,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00316",
+   "day_offset": 28,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00331",
+   "day_offset": 28,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00332",
+   "day_offset": 28,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00333",
+   "day_offset": 28,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00341",
+   "day_offset": 28,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00342",
+   "day_offset": 28,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00348",
+   "day_offset": 28,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00349",
+   "day_offset": 29,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00350",
+   "day_offset": 29,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00351",
+   "day_offset": 29,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00355",
+   "day_offset": 29,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00356",
+   "day_offset": 29,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00358",
+   "day_offset": 29,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00359",
+   "day_offset": 29,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00360",
+   "day_offset": 29,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00363",
+   "day_offset": 29,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00364",
+   "day_offset": 29,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00366",
+   "day_offset": 29,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00352",
+   "day_offset": 30,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00353",
+   "day_offset": 30,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00354",
+   "day_offset": 30,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00357",
+   "day_offset": 30,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00361",
+   "day_offset": 30,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00362",
+   "day_offset": 30,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00365",
+   "day_offset": 30,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00367",
+   "day_offset": 30,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00368",
+   "day_offset": 31,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00369",
+   "day_offset": 31,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00370",
+   "day_offset": 31,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00452",
+   "day_offset": 31,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00499",
+   "day_offset": 31,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00500",
+   "day_offset": 31,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00573",
+   "day_offset": 31,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00612",
+   "day_offset": 31,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00371",
+   "day_offset": 32,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00372",
+   "day_offset": 32,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00373",
+   "day_offset": 32,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00453",
+   "day_offset": 32,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00454",
+   "day_offset": 32,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00501",
+   "day_offset": 32,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00502",
+   "day_offset": 32,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00503",
+   "day_offset": 32,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00574",
+   "day_offset": 32,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00613",
+   "day_offset": 32,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00374",
+   "day_offset": 33,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00375",
+   "day_offset": 33,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00376",
+   "day_offset": 33,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00455",
+   "day_offset": 33,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00456",
+   "day_offset": 33,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00504",
+   "day_offset": 33,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00505",
+   "day_offset": 33,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00506",
+   "day_offset": 33,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00575",
+   "day_offset": 33,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00576",
+   "day_offset": 33,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00614",
+   "day_offset": 33,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00377",
+   "day_offset": 34,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00378",
+   "day_offset": 34,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00379",
+   "day_offset": 34,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00457",
+   "day_offset": 34,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00507",
+   "day_offset": 34,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00508",
+   "day_offset": 34,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00577",
+   "day_offset": 34,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00615",
+   "day_offset": 34,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00380",
+   "day_offset": 35,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00381",
+   "day_offset": 35,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00382",
+   "day_offset": 35,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00458",
+   "day_offset": 35,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00459",
+   "day_offset": 35,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00509",
+   "day_offset": 35,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00510",
+   "day_offset": 35,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00511",
+   "day_offset": 35,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00578",
+   "day_offset": 35,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00579",
+   "day_offset": 35,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00616",
+   "day_offset": 35,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00383",
+   "day_offset": 36,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00384",
+   "day_offset": 36,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00385",
+   "day_offset": 36,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00460",
+   "day_offset": 36,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00461",
+   "day_offset": 36,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00512",
+   "day_offset": 36,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00513",
+   "day_offset": 36,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00514",
+   "day_offset": 36,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00580",
+   "day_offset": 36,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00581",
+   "day_offset": 36,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00617",
+   "day_offset": 36,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00386",
+   "day_offset": 37,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00387",
+   "day_offset": 37,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00388",
+   "day_offset": 37,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00462",
+   "day_offset": 37,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00515",
+   "day_offset": 37,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00516",
+   "day_offset": 37,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00582",
+   "day_offset": 37,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00618",
+   "day_offset": 37,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00389",
+   "day_offset": 38,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00390",
+   "day_offset": 38,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00391",
+   "day_offset": 38,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00463",
+   "day_offset": 38,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00517",
+   "day_offset": 38,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00518",
+   "day_offset": 38,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00583",
+   "day_offset": 38,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00619",
+   "day_offset": 38,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00392",
+   "day_offset": 39,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00393",
+   "day_offset": 39,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00394",
+   "day_offset": 39,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00464",
+   "day_offset": 39,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00465",
+   "day_offset": 39,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00519",
+   "day_offset": 39,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00520",
+   "day_offset": 39,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00521",
+   "day_offset": 39,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00584",
+   "day_offset": 39,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00620",
+   "day_offset": 39,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00395",
+   "day_offset": 40,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00396",
+   "day_offset": 40,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00397",
+   "day_offset": 40,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00466",
+   "day_offset": 40,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00467",
+   "day_offset": 40,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00522",
+   "day_offset": 40,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00523",
+   "day_offset": 40,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00524",
+   "day_offset": 40,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00585",
+   "day_offset": 40,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00586",
+   "day_offset": 40,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00621",
+   "day_offset": 40,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00398",
+   "day_offset": 41,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00399",
+   "day_offset": 41,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00468",
+   "day_offset": 41,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00525",
+   "day_offset": 41,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00526",
+   "day_offset": 41,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00587",
+   "day_offset": 41,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00622",
+   "day_offset": 41,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00400",
+   "day_offset": 42,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00401",
+   "day_offset": 42,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00402",
+   "day_offset": 42,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00469",
+   "day_offset": 42,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00470",
+   "day_offset": 42,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00527",
+   "day_offset": 42,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00528",
+   "day_offset": 42,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00529",
+   "day_offset": 42,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00588",
+   "day_offset": 42,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00589",
+   "day_offset": 42,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00623",
+   "day_offset": 42,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00403",
+   "day_offset": 43,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00404",
+   "day_offset": 43,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00405",
+   "day_offset": 43,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00471",
+   "day_offset": 43,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00472",
+   "day_offset": 43,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00530",
+   "day_offset": 43,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00531",
+   "day_offset": 43,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00532",
+   "day_offset": 43,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00590",
+   "day_offset": 43,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00624",
+   "day_offset": 43,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00406",
+   "day_offset": 44,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00407",
+   "day_offset": 44,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00408",
+   "day_offset": 44,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00473",
+   "day_offset": 44,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00533",
+   "day_offset": 44,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00534",
+   "day_offset": 44,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00591",
+   "day_offset": 44,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00625",
+   "day_offset": 44,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00409",
+   "day_offset": 45,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00410",
+   "day_offset": 45,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00474",
+   "day_offset": 45,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00535",
+   "day_offset": 45,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00536",
+   "day_offset": 45,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00592",
+   "day_offset": 45,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00626",
+   "day_offset": 45,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00411",
+   "day_offset": 46,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00412",
+   "day_offset": 46,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00413",
+   "day_offset": 46,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00475",
+   "day_offset": 46,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00476",
+   "day_offset": 46,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00537",
+   "day_offset": 46,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00538",
+   "day_offset": 46,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00593",
+   "day_offset": 46,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00627",
+   "day_offset": 46,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00414",
+   "day_offset": 47,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00415",
+   "day_offset": 47,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00416",
+   "day_offset": 47,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00477",
+   "day_offset": 47,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00478",
+   "day_offset": 47,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00539",
+   "day_offset": 47,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00540",
+   "day_offset": 47,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00541",
+   "day_offset": 47,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00594",
+   "day_offset": 47,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00595",
+   "day_offset": 47,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00628",
+   "day_offset": 47,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00417",
+   "day_offset": 48,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00418",
+   "day_offset": 48,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00479",
+   "day_offset": 48,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00542",
+   "day_offset": 48,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00543",
+   "day_offset": 48,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00596",
+   "day_offset": 48,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00419",
+   "day_offset": 49,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00420",
+   "day_offset": 49,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00421",
+   "day_offset": 49,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00480",
+   "day_offset": 49,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00481",
+   "day_offset": 49,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00544",
+   "day_offset": 49,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00545",
+   "day_offset": 49,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00546",
+   "day_offset": 49,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00597",
+   "day_offset": 49,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00598",
+   "day_offset": 49,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00629",
+   "day_offset": 49,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00422",
+   "day_offset": 50,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00423",
+   "day_offset": 50,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00424",
+   "day_offset": 50,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00482",
+   "day_offset": 50,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00483",
+   "day_offset": 50,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00547",
+   "day_offset": 50,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00548",
+   "day_offset": 50,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00549",
+   "day_offset": 50,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00599",
+   "day_offset": 50,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00630",
+   "day_offset": 50,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00425",
+   "day_offset": 51,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00426",
+   "day_offset": 51,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00427",
+   "day_offset": 51,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00484",
+   "day_offset": 51,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00550",
+   "day_offset": 51,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00551",
+   "day_offset": 51,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00600",
+   "day_offset": 51,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00631",
+   "day_offset": 51,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00428",
+   "day_offset": 52,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00429",
+   "day_offset": 52,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00485",
+   "day_offset": 52,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00552",
+   "day_offset": 52,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00553",
+   "day_offset": 52,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00601",
+   "day_offset": 52,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00430",
+   "day_offset": 53,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00431",
+   "day_offset": 53,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00432",
+   "day_offset": 53,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00486",
+   "day_offset": 53,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00487",
+   "day_offset": 53,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00554",
+   "day_offset": 53,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00555",
+   "day_offset": 53,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00602",
+   "day_offset": 53,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00632",
+   "day_offset": 53,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00433",
+   "day_offset": 54,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00434",
+   "day_offset": 54,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00435",
+   "day_offset": 54,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00488",
+   "day_offset": 54,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00489",
+   "day_offset": 54,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00556",
+   "day_offset": 54,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00557",
+   "day_offset": 54,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00558",
+   "day_offset": 54,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00603",
+   "day_offset": 54,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00604",
+   "day_offset": 54,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00633",
+   "day_offset": 54,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00436",
+   "day_offset": 55,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00437",
+   "day_offset": 55,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00490",
+   "day_offset": 55,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00559",
+   "day_offset": 55,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00560",
+   "day_offset": 55,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00605",
+   "day_offset": 55,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00438",
+   "day_offset": 56,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00439",
+   "day_offset": 56,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00440",
+   "day_offset": 56,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00491",
+   "day_offset": 56,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00492",
+   "day_offset": 56,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00561",
+   "day_offset": 56,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00562",
+   "day_offset": 56,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00563",
+   "day_offset": 56,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00606",
+   "day_offset": 56,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00607",
+   "day_offset": 56,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00634",
+   "day_offset": 56,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00441",
+   "day_offset": 57,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00442",
+   "day_offset": 57,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00443",
+   "day_offset": 57,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00493",
+   "day_offset": 57,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00494",
+   "day_offset": 57,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00564",
+   "day_offset": 57,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00565",
+   "day_offset": 57,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00566",
+   "day_offset": 57,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00608",
+   "day_offset": 57,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00635",
+   "day_offset": 57,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00444",
+   "day_offset": 58,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00445",
+   "day_offset": 58,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00446",
+   "day_offset": 58,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00495",
+   "day_offset": 58,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00567",
+   "day_offset": 58,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00568",
+   "day_offset": 58,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00609",
+   "day_offset": 58,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00636",
+   "day_offset": 58,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00447",
+   "day_offset": 59,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00448",
+   "day_offset": 59,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00496",
+   "day_offset": 59,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00569",
+   "day_offset": 59,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00570",
+   "day_offset": 59,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00610",
+   "day_offset": 59,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00449",
+   "day_offset": 60,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00450",
+   "day_offset": 60,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00451",
+   "day_offset": 60,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00497",
+   "day_offset": 60,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00498",
+   "day_offset": 60,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00571",
+   "day_offset": 60,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00572",
+   "day_offset": 60,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00611",
+   "day_offset": 60,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00637",
+   "day_offset": 60,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00638",
+   "day_offset": 61,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00639",
+   "day_offset": 61,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00640",
+   "day_offset": 61,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00649",
+   "day_offset": 61,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00650",
+   "day_offset": 61,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00655",
+   "day_offset": 61,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00656",
+   "day_offset": 61,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00657",
+   "day_offset": 61,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00665",
+   "day_offset": 61,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00666",
+   "day_offset": 61,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00670",
+   "day_offset": 61,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00641",
+   "day_offset": 62,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00642",
+   "day_offset": 62,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00651",
+   "day_offset": 62,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00658",
+   "day_offset": 62,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00659",
+   "day_offset": 62,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00667",
+   "day_offset": 62,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00643",
+   "day_offset": 63,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00644",
+   "day_offset": 63,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00645",
+   "day_offset": 63,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00652",
+   "day_offset": 63,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00653",
+   "day_offset": 63,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00660",
+   "day_offset": 63,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00661",
+   "day_offset": 63,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00662",
+   "day_offset": 63,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00668",
+   "day_offset": 63,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00671",
+   "day_offset": 63,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00646",
+   "day_offset": 64,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00647",
+   "day_offset": 64,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00648",
+   "day_offset": 64,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00654",
+   "day_offset": 64,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00663",
+   "day_offset": 64,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00664",
+   "day_offset": 64,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00669",
+   "day_offset": 64,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00672",
+   "day_offset": 64,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00673",
+   "day_offset": 365,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00674",
+   "day_offset": 365,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00675",
+   "day_offset": 365,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00708",
+   "day_offset": 365,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00709",
+   "day_offset": 365,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00727",
+   "day_offset": 365,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00728",
+   "day_offset": 365,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00758",
+   "day_offset": 365,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00774",
+   "day_offset": 365,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00676",
+   "day_offset": 366,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00677",
+   "day_offset": 366,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00710",
+   "day_offset": 366,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00729",
+   "day_offset": 366,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00730",
+   "day_offset": 366,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00759",
+   "day_offset": 366,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00775",
+   "day_offset": 366,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00678",
+   "day_offset": 367,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00679",
+   "day_offset": 367,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00711",
+   "day_offset": 367,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00731",
+   "day_offset": 367,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00732",
+   "day_offset": 367,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00760",
+   "day_offset": 367,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00776",
+   "day_offset": 367,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00680",
+   "day_offset": 368,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00681",
+   "day_offset": 368,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00682",
+   "day_offset": 368,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00712",
+   "day_offset": 368,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00733",
+   "day_offset": 368,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00734",
+   "day_offset": 368,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00761",
+   "day_offset": 368,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00777",
+   "day_offset": 368,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00683",
+   "day_offset": 369,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00684",
+   "day_offset": 369,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00685",
+   "day_offset": 369,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00713",
+   "day_offset": 369,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00714",
+   "day_offset": 369,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00735",
+   "day_offset": 369,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00736",
+   "day_offset": 369,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00737",
+   "day_offset": 369,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00762",
+   "day_offset": 369,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00763",
+   "day_offset": 369,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00778",
+   "day_offset": 369,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00686",
+   "day_offset": 370,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00687",
+   "day_offset": 370,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00715",
+   "day_offset": 370,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00738",
+   "day_offset": 370,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00739",
+   "day_offset": 370,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00764",
+   "day_offset": 370,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00688",
+   "day_offset": 371,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00689",
+   "day_offset": 371,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00690",
+   "day_offset": 371,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00716",
+   "day_offset": 371,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00717",
+   "day_offset": 371,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00740",
+   "day_offset": 371,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00741",
+   "day_offset": 371,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00742",
+   "day_offset": 371,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00765",
+   "day_offset": 371,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00779",
+   "day_offset": 371,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00691",
+   "day_offset": 372,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00692",
+   "day_offset": 372,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00693",
+   "day_offset": 372,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00718",
+   "day_offset": 372,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00743",
+   "day_offset": 372,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00744",
+   "day_offset": 372,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00766",
+   "day_offset": 372,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00780",
+   "day_offset": 372,
+   "subject": "No puedo acceder a mi cuenta",
+   "channel": "email",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00694",
+   "day_offset": 373,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00695",
+   "day_offset": 373,
+   "subject": "Me han cobrado portes sin avisar",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00719",
+   "day_offset": 373,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00745",
+   "day_offset": 373,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00746",
+   "day_offset": 373,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00767",
+   "day_offset": 373,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00781",
+   "day_offset": 373,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00696",
+   "day_offset": 374,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00697",
+   "day_offset": 374,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00720",
+   "day_offset": 374,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00747",
+   "day_offset": 374,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00748",
+   "day_offset": 374,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00768",
+   "day_offset": 374,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00698",
+   "day_offset": 375,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00699",
+   "day_offset": 375,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00721",
+   "day_offset": 375,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00749",
+   "day_offset": 375,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00750",
+   "day_offset": 375,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00769",
+   "day_offset": 375,
+   "subject": "¿Cuánto tarda el reembolso?",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00782",
+   "day_offset": 375,
+   "subject": "Cambiar los datos de mi cuenta",
+   "channel": "form",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00700",
+   "day_offset": 376,
+   "subject": "El envío gratuito ya no me aparece en el carrito",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00701",
+   "day_offset": 376,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00702",
+   "day_offset": 376,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00722",
+   "day_offset": 376,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00723",
+   "day_offset": 376,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "chat",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00751",
+   "day_offset": 376,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "form",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00752",
+   "day_offset": 376,
+   "subject": "El artículo llegó con un defecto de costura",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00753",
+   "day_offset": 376,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00770",
+   "day_offset": 376,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00771",
+   "day_offset": 376,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "chat",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00783",
+   "day_offset": 376,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  },
+  {
+   "id": "TCK-00703",
+   "day_offset": 377,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00704",
+   "day_offset": 377,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00724",
+   "day_offset": 377,
+   "subject": "El pago con tarjeta me da error",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00754",
+   "day_offset": 377,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00755",
+   "day_offset": 377,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00772",
+   "day_offset": 377,
+   "subject": "Quiero tramitar una devolución",
+   "channel": "email",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00705",
+   "day_offset": 378,
+   "subject": "¿A partir de qué importe el envío es gratuito?",
+   "channel": "email",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00706",
+   "day_offset": 378,
+   "subject": "¿Por qué me cobran envío si antes era gratis?",
+   "channel": "chat",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00707",
+   "day_offset": 378,
+   "subject": "Gastos de envío demasiado altos para un pedido pequeño",
+   "channel": "form",
+   "intended_topic": "shipping"
+  },
+  {
+   "id": "TCK-00725",
+   "day_offset": 378,
+   "subject": "Cobro duplicado en mi tarjeta",
+   "channel": "form",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00726",
+   "day_offset": 378,
+   "subject": "No puedo pagar con Bizum",
+   "channel": "email",
+   "intended_topic": "payment"
+  },
+  {
+   "id": "TCK-00756",
+   "day_offset": 378,
+   "subject": "¿Qué talla es la sudadera con capucha?",
+   "channel": "email",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00757",
+   "day_offset": 378,
+   "subject": "¿Hay stock del bolso en color negro?",
+   "channel": "chat",
+   "intended_topic": "product"
+  },
+  {
+   "id": "TCK-00773",
+   "day_offset": 378,
+   "subject": "No me llega la etiqueta para la devolución",
+   "channel": "form",
+   "intended_topic": "returns"
+  },
+  {
+   "id": "TCK-00784",
+   "day_offset": 378,
+   "subject": "Restablecer la contraseña de mi cuenta",
+   "channel": "chat",
+   "intended_topic": "account"
+  }
+ ]
+}

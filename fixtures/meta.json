@@ -1,0 +1,40 @@
+{
+  "scenario": "El umbral de envío gratuito pasa de 50 € a 75 € y el cambio está vivo en los últimos 7 días (offsets 1..7). Los carritos pequeños abandonan en checkout: la conversión móvil cae, el AOV sube, los ingresos quedan casi planos y los tickets de envío se multiplican. Escritorio actúa de control.",
+  "indexing": "day_offset: 1 = ayer. Sin fechas absolutas: el dataset vale cualquier día.",
+  "change_live_from_offset": 7,
+  "periods": {
+    "post7": [
+      1,
+      7
+    ],
+    "pre7": [
+      8,
+      14
+    ],
+    "p15_21": [
+      15,
+      21
+    ],
+    "p22_28": [
+      22,
+      28
+    ],
+    "p29_30": [
+      29,
+      30
+    ],
+    "p31_60": [
+      31,
+      60
+    ],
+    "p61_64": [
+      61,
+      64
+    ],
+    "sply": [
+      365,
+      378
+    ]
+  },
+  "generator": "fixtures/generate.py"
+}

@@ -1,0 +1,25 @@
+{
+ "channel_order_shares": {
+  "mobile": {
+   "organic_search": 0.313943,
+   "paid_search": 0.216066,
+   "direct": 0.224377,
+   "email": 0.199446,
+   "social": 0.046168
+  },
+  "desktop": {
+   "organic_search": 0.359066,
+   "paid_search": 0.16158,
+   "direct": 0.290844,
+   "email": 0.16158,
+   "social": 0.02693
+  },
+  "tablet": {
+   "organic_search": 0.333626,
+   "paid_search": 0.14223,
+   "direct": 0.308165,
+   "email": 0.18964,
+   "social": 0.026339
+  }
+ }
+}

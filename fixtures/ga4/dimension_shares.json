@@ -1,0 +1,203 @@
+{
+ "channel": {
+  "mobile": {
+   "organic_search": 0.34,
+   "paid_search": 0.26,
+   "direct": 0.18,
+   "email": 0.12,
+   "social": 0.1
+  },
+  "desktop": {
+   "organic_search": 0.4,
+   "paid_search": 0.2,
+   "direct": 0.24,
+   "email": 0.1,
+   "social": 0.06
+  },
+  "tablet": {
+   "organic_search": 0.38,
+   "paid_search": 0.18,
+   "direct": 0.26,
+   "email": 0.12,
+   "social": 0.06
+  }
+ },
+ "channel_cr_index": {
+  "organic_search": 1.0,
+  "paid_search": 0.9,
+  "direct": 1.35,
+  "email": 1.8,
+  "social": 0.5
+ },
+ "cr_index": {
+  "channel": {
+   "organic_search": 1.0,
+   "paid_search": 0.9,
+   "direct": 1.35,
+   "email": 1.8,
+   "social": 0.5
+  },
+  "source_medium": {
+   "google / organic": 1.0,
+   "google / cpc": 0.9,
+   "(direct) / (none)": 1.35,
+   "newsletter / email": 1.8,
+   "instagram / social": 0.5,
+   "meta / cpc": 0.55,
+   "bing / organic": 0.95
+  },
+  "landing_page": {
+   "/": 0.9,
+   "/coleccion/novedades": 1.1,
+   "/producto/bolso-tote": 1.6,
+   "/coleccion/rebajas": 1.2,
+   "/blog/guia-de-tallas": 0.35,
+   "/coleccion/accesorios": 1.0,
+   "/carrito": 2.4
+  },
+  "browser": {
+   "Chrome": 1.0,
+   "Safari": 0.95,
+   "Samsung Internet": 0.9,
+   "Firefox": 1.0,
+   "Edge": 1.05
+  },
+  "os": {
+   "Android": 0.95,
+   "iOS": 1.05,
+   "Windows": 1.0,
+   "macOS": 1.05,
+   "Linux": 0.9
+  },
+  "country": {
+   "ES": 1.08,
+   "FR": 0.7,
+   "PT": 0.8,
+   "IT": 0.65,
+   "DE": 0.6,
+   "MX": 0.45
+  }
+ },
+ "source_medium": {
+  "mobile": {
+   "google / organic": 0.31,
+   "google / cpc": 0.24,
+   "(direct) / (none)": 0.18,
+   "newsletter / email": 0.12,
+   "instagram / social": 0.08,
+   "meta / cpc": 0.04,
+   "bing / organic": 0.03
+  },
+  "desktop": {
+   "google / organic": 0.36,
+   "google / cpc": 0.18,
+   "(direct) / (none)": 0.24,
+   "newsletter / email": 0.1,
+   "instagram / social": 0.04,
+   "meta / cpc": 0.03,
+   "bing / organic": 0.05
+  },
+  "tablet": {
+   "google / organic": 0.35,
+   "google / cpc": 0.16,
+   "(direct) / (none)": 0.26,
+   "newsletter / email": 0.12,
+   "instagram / social": 0.05,
+   "meta / cpc": 0.02,
+   "bing / organic": 0.04
+  }
+ },
+ "landing_page": {
+  "mobile": {
+   "/": 0.29,
+   "/coleccion/novedades": 0.18,
+   "/producto/bolso-tote": 0.14,
+   "/coleccion/rebajas": 0.13,
+   "/blog/guia-de-tallas": 0.11,
+   "/coleccion/accesorios": 0.09,
+   "/carrito": 0.06
+  },
+  "desktop": {
+   "/": 0.32,
+   "/coleccion/novedades": 0.17,
+   "/producto/bolso-tote": 0.12,
+   "/coleccion/rebajas": 0.12,
+   "/blog/guia-de-tallas": 0.1,
+   "/coleccion/accesorios": 0.11,
+   "/carrito": 0.06
+  },
+  "tablet": {
+   "/": 0.31,
+   "/coleccion/novedades": 0.18,
+   "/producto/bolso-tote": 0.13,
+   "/coleccion/rebajas": 0.12,
+   "/blog/guia-de-tallas": 0.11,
+   "/coleccion/accesorios": 0.09,
+   "/carrito": 0.06
+  }
+ },
+ "browser": {
+  "mobile": {
+   "Chrome": 0.46,
+   "Safari": 0.38,
+   "Samsung Internet": 0.11,
+   "Firefox": 0.03,
+   "Edge": 0.02
+  },
+  "desktop": {
+   "Chrome": 0.55,
+   "Safari": 0.18,
+   "Edge": 0.15,
+   "Firefox": 0.1,
+   "Samsung Internet": 0.02
+  },
+  "tablet": {
+   "Safari": 0.58,
+   "Chrome": 0.33,
+   "Firefox": 0.05,
+   "Edge": 0.03,
+   "Samsung Internet": 0.01
+  }
+ },
+ "os": {
+  "mobile": {
+   "Android": 0.55,
+   "iOS": 0.45
+  },
+  "desktop": {
+   "Windows": 0.62,
+   "macOS": 0.31,
+   "Linux": 0.07
+  },
+  "tablet": {
+   "iOS": 0.68,
+   "Android": 0.32
+  }
+ },
+ "country": {
+  "mobile": {
+   "ES": 0.74,
+   "FR": 0.08,
+   "PT": 0.07,
+   "IT": 0.05,
+   "DE": 0.04,
+   "MX": 0.02
+  },
+  "desktop": {
+   "ES": 0.71,
+   "FR": 0.09,
+   "PT": 0.06,
+   "IT": 0.06,
+   "DE": 0.05,
+   "MX": 0.03
+  },
+  "tablet": {
+   "ES": 0.76,
+   "FR": 0.07,
+   "PT": 0.06,
+   "IT": 0.05,
+   "DE": 0.04,
+   "MX": 0.02
+  }
+ }
+}

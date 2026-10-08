@@ -1,0 +1,4927 @@
+{
+ "meta": {
+  "currency": "EUR",
+  "filter": "financial_status != voided, cancelled_at IS NULL, revenue neto de devoluciones",
+  "buckets": {
+   "lt_50": "< 50 €",
+   "50_75": "50-75 €",
+   "gt_75": "> 75 €"
+  }
+ },
+ "rows": [
+  {
+   "day_offset": 1,
+   "device": "desktop",
+   "period": "post7",
+   "orders": 78,
+   "revenue_eur": 5404.78,
+   "buckets": {
+    "lt_50": {
+     "orders": 17,
+     "revenue_eur": 646.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 43,
+     "revenue_eur": 3642.78
+    }
+   }
+  },
+  {
+   "day_offset": 1,
+   "device": "mobile",
+   "period": "post7",
+   "orders": 61,
+   "revenue_eur": 5288.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 4,
+     "revenue_eur": 160.0
+    },
+    "50_75": {
+     "orders": 4,
+     "revenue_eur": 252.0
+    },
+    "gt_75": {
+     "orders": 53,
+     "revenue_eur": 4876.0
+    }
+   }
+  },
+  {
+   "day_offset": 1,
+   "device": "tablet",
+   "period": "post7",
+   "orders": 1,
+   "revenue_eur": 93.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 93.0
+    }
+   }
+  },
+  {
+   "day_offset": 2,
+   "device": "desktop",
+   "period": "post7",
+   "orders": 74,
+   "revenue_eur": 5135.34,
+   "buckets": {
+    "lt_50": {
+     "orders": 16,
+     "revenue_eur": 608.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 41,
+     "revenue_eur": 3473.34
+    }
+   }
+  },
+  {
+   "day_offset": 2,
+   "device": "mobile",
+   "period": "post7",
+   "orders": 57,
+   "revenue_eur": 4949.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 4,
+     "revenue_eur": 160.0
+    },
+    "50_75": {
+     "orders": 3,
+     "revenue_eur": 189.0
+    },
+    "gt_75": {
+     "orders": 50,
+     "revenue_eur": 4600.0
+    }
+   }
+  },
+  {
+   "day_offset": 2,
+   "device": "tablet",
+   "period": "post7",
+   "orders": 1,
+   "revenue_eur": 93.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 93.0
+    }
+   }
+  },
+  {
+   "day_offset": 3,
+   "device": "desktop",
+   "period": "post7",
+   "orders": 74,
+   "revenue_eur": 5135.34,
+   "buckets": {
+    "lt_50": {
+     "orders": 16,
+     "revenue_eur": 608.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 41,
+     "revenue_eur": 3473.34
+    }
+   }
+  },
+  {
+   "day_offset": 3,
+   "device": "mobile",
+   "period": "post7",
+   "orders": 56,
+   "revenue_eur": 4857.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 4,
+     "revenue_eur": 160.0
+    },
+    "50_75": {
+     "orders": 3,
+     "revenue_eur": 189.0
+    },
+    "gt_75": {
+     "orders": 49,
+     "revenue_eur": 4508.0
+    }
+   }
+  },
+  {
+   "day_offset": 3,
+   "device": "tablet",
+   "period": "post7",
+   "orders": 1,
+   "revenue_eur": 93.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 93.0
+    }
+   }
+  },
+  {
+   "day_offset": 4,
+   "device": "desktop",
+   "period": "post7",
+   "orders": 76,
+   "revenue_eur": 5304.78,
+   "buckets": {
+    "lt_50": {
+     "orders": 16,
+     "revenue_eur": 608.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 43,
+     "revenue_eur": 3642.78
+    }
+   }
+  },
+  {
+   "day_offset": 4,
+   "device": "mobile",
+   "period": "post7",
+   "orders": 60,
+   "revenue_eur": 5196.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 4,
+     "revenue_eur": 160.0
+    },
+    "50_75": {
+     "orders": 4,
+     "revenue_eur": 252.0
+    },
+    "gt_75": {
+     "orders": 52,
+     "revenue_eur": 4784.0
+    }
+   }
+  },
+  {
+   "day_offset": 4,
+   "device": "tablet",
+   "period": "post7",
+   "orders": 1,
+   "revenue_eur": 93.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 93.0
+    }
+   }
+  },
+  {
+   "day_offset": 5,
+   "device": "desktop",
+   "period": "post7",
+   "orders": 80,
+   "revenue_eur": 5574.21,
+   "buckets": {
+    "lt_50": {
+     "orders": 17,
+     "revenue_eur": 646.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 45,
+     "revenue_eur": 3812.21
+    }
+   }
+  },
+  {
+   "day_offset": 5,
+   "device": "mobile",
+   "period": "post7",
+   "orders": 64,
+   "revenue_eur": 5512.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 5,
+     "revenue_eur": 200.0
+    },
+    "50_75": {
+     "orders": 4,
+     "revenue_eur": 252.0
+    },
+    "gt_75": {
+     "orders": 55,
+     "revenue_eur": 5060.0
+    }
+   }
+  },
+  {
+   "day_offset": 5,
+   "device": "tablet",
+   "period": "post7",
+   "orders": 4,
+   "revenue_eur": 286.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 2,
+     "revenue_eur": 186.0
+    }
+   }
+  },
+  {
+   "day_offset": 6,
+   "device": "desktop",
+   "period": "post7",
+   "orders": 74,
+   "revenue_eur": 5135.34,
+   "buckets": {
+    "lt_50": {
+     "orders": 16,
+     "revenue_eur": 608.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 41,
+     "revenue_eur": 3473.34
+    }
+   }
+  },
+  {
+   "day_offset": 6,
+   "device": "mobile",
+   "period": "post7",
+   "orders": 56,
+   "revenue_eur": 4857.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 4,
+     "revenue_eur": 160.0
+    },
+    "50_75": {
+     "orders": 3,
+     "revenue_eur": 189.0
+    },
+    "gt_75": {
+     "orders": 49,
+     "revenue_eur": 4508.0
+    }
+   }
+  },
+  {
+   "day_offset": 6,
+   "device": "tablet",
+   "period": "post7",
+   "orders": 1,
+   "revenue_eur": 93.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 93.0
+    }
+   }
+  },
+  {
+   "day_offset": 7,
+   "device": "desktop",
+   "period": "post7",
+   "orders": 80,
+   "revenue_eur": 5574.21,
+   "buckets": {
+    "lt_50": {
+     "orders": 17,
+     "revenue_eur": 646.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 45,
+     "revenue_eur": 3812.21
+    }
+   }
+  },
+  {
+   "day_offset": 7,
+   "device": "mobile",
+   "period": "post7",
+   "orders": 63,
+   "revenue_eur": 5420.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 5,
+     "revenue_eur": 200.0
+    },
+    "50_75": {
+     "orders": 4,
+     "revenue_eur": 252.0
+    },
+    "gt_75": {
+     "orders": 54,
+     "revenue_eur": 4968.0
+    }
+   }
+  },
+  {
+   "day_offset": 7,
+   "device": "tablet",
+   "period": "post7",
+   "orders": 3,
+   "revenue_eur": 193.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 93.0
+    }
+   }
+  },
+  {
+   "day_offset": 8,
+   "device": "desktop",
+   "period": "pre7",
+   "orders": 79,
+   "revenue_eur": 5419.52,
+   "buckets": {
+    "lt_50": {
+     "orders": 18,
+     "revenue_eur": 684.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 42,
+     "revenue_eur": 3557.52
+    }
+   }
+  },
+  {
+   "day_offset": 8,
+   "device": "mobile",
+   "period": "pre7",
+   "orders": 78,
+   "revenue_eur": 5547.64,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 851.0
+    },
+    "50_75": {
+     "orders": 16,
+     "revenue_eur": 984.0
+    },
+    "gt_75": {
+     "orders": 39,
+     "revenue_eur": 3712.64
+    }
+   }
+  },
+  {
+   "day_offset": 8,
+   "device": "tablet",
+   "period": "pre7",
+   "orders": 3,
+   "revenue_eur": 196.5,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 96.5
+    }
+   }
+  },
+  {
+   "day_offset": 9,
+   "device": "desktop",
+   "period": "pre7",
+   "orders": 74,
+   "revenue_eur": 5065.41,
+   "buckets": {
+    "lt_50": {
+     "orders": 17,
+     "revenue_eur": 646.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 39,
+     "revenue_eur": 3303.41
+    }
+   }
+  },
+  {
+   "day_offset": 9,
+   "device": "mobile",
+   "period": "pre7",
+   "orders": 74,
+   "revenue_eur": 5258.75,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 814.0
+    },
+    "50_75": {
+     "orders": 15,
+     "revenue_eur": 922.5
+    },
+    "gt_75": {
+     "orders": 37,
+     "revenue_eur": 3522.25
+    }
+   }
+  },
+  {
+   "day_offset": 9,
+   "device": "tablet",
+   "period": "pre7",
+   "orders": 1,
+   "revenue_eur": 96.5,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 96.5
+    }
+   }
+  },
+  {
+   "day_offset": 10,
+   "device": "desktop",
+   "period": "pre7",
+   "orders": 73,
+   "revenue_eur": 5003.41,
+   "buckets": {
+    "lt_50": {
+     "orders": 17,
+     "revenue_eur": 646.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 39,
+     "revenue_eur": 3303.41
+    }
+   }
+  },
+  {
+   "day_offset": 10,
+   "device": "mobile",
+   "period": "pre7",
+   "orders": 73,
+   "revenue_eur": 5221.75,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 777.0
+    },
+    "50_75": {
+     "orders": 15,
+     "revenue_eur": 922.5
+    },
+    "gt_75": {
+     "orders": 37,
+     "revenue_eur": 3522.25
+    }
+   }
+  },
+  {
+   "day_offset": 10,
+   "device": "tablet",
+   "period": "pre7",
+   "orders": 1,
+   "revenue_eur": 96.5,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 96.5
+    }
+   }
+  },
+  {
+   "day_offset": 11,
+   "device": "desktop",
+   "period": "pre7",
+   "orders": 77,
+   "revenue_eur": 5272.81,
+   "buckets": {
+    "lt_50": {
+     "orders": 18,
+     "revenue_eur": 684.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 41,
+     "revenue_eur": 3472.81
+    }
+   }
+  },
+  {
+   "day_offset": 11,
+   "device": "mobile",
+   "period": "pre7",
+   "orders": 75,
+   "revenue_eur": 5353.94,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 814.0
+    },
+    "50_75": {
+     "orders": 15,
+     "revenue_eur": 922.5
+    },
+    "gt_75": {
+     "orders": 38,
+     "revenue_eur": 3617.44
+    }
+   }
+  },
+  {
+   "day_offset": 11,
+   "device": "tablet",
+   "period": "pre7",
+   "orders": 2,
+   "revenue_eur": 134.5,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 96.5
+    }
+   }
+  },
+  {
+   "day_offset": 12,
+   "device": "desktop",
+   "period": "pre7",
+   "orders": 82,
+   "revenue_eur": 5604.22,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 722.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 43,
+     "revenue_eur": 3642.22
+    }
+   }
+  },
+  {
+   "day_offset": 12,
+   "device": "mobile",
+   "period": "pre7",
+   "orders": 81,
+   "revenue_eur": 5775.03,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 888.0
+    },
+    "50_75": {
+     "orders": 16,
+     "revenue_eur": 984.0
+    },
+    "gt_75": {
+     "orders": 41,
+     "revenue_eur": 3903.03
+    }
+   }
+  },
+  {
+   "day_offset": 12,
+   "device": "tablet",
+   "period": "pre7",
+   "orders": 4,
+   "revenue_eur": 293.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 2,
+     "revenue_eur": 193.0
+    }
+   }
+  },
+  {
+   "day_offset": 13,
+   "device": "desktop",
+   "period": "pre7",
+   "orders": 73,
+   "revenue_eur": 5003.41,
+   "buckets": {
+    "lt_50": {
+     "orders": 17,
+     "revenue_eur": 646.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 39,
+     "revenue_eur": 3303.41
+    }
+   }
+  },
+  {
+   "day_offset": 13,
+   "device": "mobile",
+   "period": "pre7",
+   "orders": 71,
+   "revenue_eur": 5065.05,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 777.0
+    },
+    "50_75": {
+     "orders": 14,
+     "revenue_eur": 861.0
+    },
+    "gt_75": {
+     "orders": 36,
+     "revenue_eur": 3427.05
+    }
+   }
+  },
+  {
+   "day_offset": 13,
+   "device": "tablet",
+   "period": "pre7",
+   "orders": 1,
+   "revenue_eur": 96.5,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 96.5
+    }
+   }
+  },
+  {
+   "day_offset": 14,
+   "device": "desktop",
+   "period": "pre7",
+   "orders": 81,
+   "revenue_eur": 5542.22,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 722.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 43,
+     "revenue_eur": 3642.22
+    }
+   }
+  },
+  {
+   "day_offset": 14,
+   "device": "mobile",
+   "period": "pre7",
+   "orders": 79,
+   "revenue_eur": 5642.84,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 851.0
+    },
+    "50_75": {
+     "orders": 16,
+     "revenue_eur": 984.0
+    },
+    "gt_75": {
+     "orders": 40,
+     "revenue_eur": 3807.84
+    }
+   }
+  },
+  {
+   "day_offset": 14,
+   "device": "tablet",
+   "period": "pre7",
+   "orders": 3,
+   "revenue_eur": 196.5,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 96.5
+    }
+   }
+  },
+  {
+   "day_offset": 15,
+   "device": "desktop",
+   "period": "p15_21",
+   "orders": 78,
+   "revenue_eur": 5334.91,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 35,
+     "revenue_eur": 3196.91
+    }
+   }
+  },
+  {
+   "day_offset": 15,
+   "device": "mobile",
+   "period": "p15_21",
+   "orders": 74,
+   "revenue_eur": 5281.76,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3229.76
+    }
+   }
+  },
+  {
+   "day_offset": 15,
+   "device": "tablet",
+   "period": "p15_21",
+   "orders": 3,
+   "revenue_eur": 201.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 16,
+   "device": "desktop",
+   "period": "p15_21",
+   "orders": 73,
+   "revenue_eur": 4990.23,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 33,
+     "revenue_eur": 3014.23
+    }
+   }
+  },
+  {
+   "day_offset": 16,
+   "device": "mobile",
+   "period": "p15_21",
+   "orders": 71,
+   "revenue_eur": 5041.9,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 3027.9
+    }
+   }
+  },
+  {
+   "day_offset": 16,
+   "device": "tablet",
+   "period": "p15_21",
+   "orders": 2,
+   "revenue_eur": 139.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 17,
+   "device": "desktop",
+   "period": "p15_21",
+   "orders": 72,
+   "revenue_eur": 4952.23,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 33,
+     "revenue_eur": 3014.23
+    }
+   }
+  },
+  {
+   "day_offset": 17,
+   "device": "mobile",
+   "period": "p15_21",
+   "orders": 69,
+   "revenue_eur": 4878.97,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.97
+    }
+   }
+  },
+  {
+   "day_offset": 17,
+   "device": "tablet",
+   "period": "p15_21",
+   "orders": 1,
+   "revenue_eur": 101.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 18,
+   "device": "desktop",
+   "period": "p15_21",
+   "orders": 75,
+   "revenue_eur": 5143.57,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3105.57
+    }
+   }
+  },
+  {
+   "day_offset": 18,
+   "device": "mobile",
+   "period": "p15_21",
+   "orders": 73,
+   "revenue_eur": 5180.83,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 3128.83
+    }
+   }
+  },
+  {
+   "day_offset": 18,
+   "device": "tablet",
+   "period": "p15_21",
+   "orders": 3,
+   "revenue_eur": 201.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 19,
+   "device": "desktop",
+   "period": "p15_21",
+   "orders": 81,
+   "revenue_eur": 5555.59,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 37,
+     "revenue_eur": 3379.59
+    }
+   }
+  },
+  {
+   "day_offset": 19,
+   "device": "mobile",
+   "period": "p15_21",
+   "orders": 77,
+   "revenue_eur": 5482.69,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 33,
+     "revenue_eur": 3330.69
+    }
+   }
+  },
+  {
+   "day_offset": 19,
+   "device": "tablet",
+   "period": "p15_21",
+   "orders": 3,
+   "revenue_eur": 201.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 20,
+   "device": "desktop",
+   "period": "p15_21",
+   "orders": 72,
+   "revenue_eur": 4952.22,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 33,
+     "revenue_eur": 3014.22
+    }
+   }
+  },
+  {
+   "day_offset": 20,
+   "device": "mobile",
+   "period": "p15_21",
+   "orders": 69,
+   "revenue_eur": 4878.97,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.97
+    }
+   }
+  },
+  {
+   "day_offset": 20,
+   "device": "tablet",
+   "period": "p15_21",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 21,
+   "device": "desktop",
+   "period": "p15_21",
+   "orders": 80,
+   "revenue_eur": 5464.25,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 36,
+     "revenue_eur": 3288.25
+    }
+   }
+  },
+  {
+   "day_offset": 21,
+   "device": "mobile",
+   "period": "p15_21",
+   "orders": 76,
+   "revenue_eur": 5381.76,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3229.76
+    }
+   }
+  },
+  {
+   "day_offset": 21,
+   "device": "tablet",
+   "period": "p15_21",
+   "orders": 3,
+   "revenue_eur": 201.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 22,
+   "device": "desktop",
+   "period": "p22_28",
+   "orders": 78,
+   "revenue_eur": 5335.89,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 35,
+     "revenue_eur": 3197.89
+    }
+   }
+  },
+  {
+   "day_offset": 22,
+   "device": "mobile",
+   "period": "p22_28",
+   "orders": 73,
+   "revenue_eur": 5180.56,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 3128.56
+    }
+   }
+  },
+  {
+   "day_offset": 22,
+   "device": "tablet",
+   "period": "p22_28",
+   "orders": 3,
+   "revenue_eur": 201.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 23,
+   "device": "desktop",
+   "period": "p22_28",
+   "orders": 73,
+   "revenue_eur": 4991.15,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 33,
+     "revenue_eur": 3015.15
+    }
+   }
+  },
+  {
+   "day_offset": 23,
+   "device": "mobile",
+   "period": "p22_28",
+   "orders": 70,
+   "revenue_eur": 4979.63,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 3027.63
+    }
+   }
+  },
+  {
+   "day_offset": 23,
+   "device": "tablet",
+   "period": "p22_28",
+   "orders": 1,
+   "revenue_eur": 101.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 24,
+   "device": "desktop",
+   "period": "p22_28",
+   "orders": 72,
+   "revenue_eur": 4953.15,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 33,
+     "revenue_eur": 3015.15
+    }
+   }
+  },
+  {
+   "day_offset": 24,
+   "device": "mobile",
+   "period": "p22_28",
+   "orders": 68,
+   "revenue_eur": 4840.71,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.71
+    }
+   }
+  },
+  {
+   "day_offset": 24,
+   "device": "tablet",
+   "period": "p22_28",
+   "orders": 1,
+   "revenue_eur": 101.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 25,
+   "device": "desktop",
+   "period": "p22_28",
+   "orders": 75,
+   "revenue_eur": 5144.52,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3106.52
+    }
+   }
+  },
+  {
+   "day_offset": 25,
+   "device": "mobile",
+   "period": "p22_28",
+   "orders": 73,
+   "revenue_eur": 5180.55,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 3128.55
+    }
+   }
+  },
+  {
+   "day_offset": 25,
+   "device": "tablet",
+   "period": "p22_28",
+   "orders": 3,
+   "revenue_eur": 201.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 26,
+   "device": "desktop",
+   "period": "p22_28",
+   "orders": 80,
+   "revenue_eur": 5465.26,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 36,
+     "revenue_eur": 3289.26
+    }
+   }
+  },
+  {
+   "day_offset": 26,
+   "device": "mobile",
+   "period": "p22_28",
+   "orders": 76,
+   "revenue_eur": 5381.48,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3229.48
+    }
+   }
+  },
+  {
+   "day_offset": 26,
+   "device": "tablet",
+   "period": "p22_28",
+   "orders": 3,
+   "revenue_eur": 201.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 27,
+   "device": "desktop",
+   "period": "p22_28",
+   "orders": 71,
+   "revenue_eur": 4861.78,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 2923.78
+    }
+   }
+  },
+  {
+   "day_offset": 27,
+   "device": "mobile",
+   "period": "p22_28",
+   "orders": 68,
+   "revenue_eur": 4840.71,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.71
+    }
+   }
+  },
+  {
+   "day_offset": 27,
+   "device": "tablet",
+   "period": "p22_28",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 28,
+   "device": "desktop",
+   "period": "p22_28",
+   "orders": 80,
+   "revenue_eur": 5465.25,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 36,
+     "revenue_eur": 3289.25
+    }
+   }
+  },
+  {
+   "day_offset": 28,
+   "device": "mobile",
+   "period": "p22_28",
+   "orders": 75,
+   "revenue_eur": 5319.48,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3229.48
+    }
+   }
+  },
+  {
+   "day_offset": 28,
+   "device": "tablet",
+   "period": "p22_28",
+   "orders": 3,
+   "revenue_eur": 201.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 101.0
+    }
+   }
+  },
+  {
+   "day_offset": 29,
+   "device": "desktop",
+   "period": "p29_30",
+   "orders": 78,
+   "revenue_eur": 5329.18,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 35,
+     "revenue_eur": 3191.18
+    }
+   }
+  },
+  {
+   "day_offset": 29,
+   "device": "mobile",
+   "period": "p29_30",
+   "orders": 73,
+   "revenue_eur": 5180.46,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 3128.46
+    }
+   }
+  },
+  {
+   "day_offset": 29,
+   "device": "tablet",
+   "period": "p29_30",
+   "orders": 3,
+   "revenue_eur": 190.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 90.0
+    }
+   }
+  },
+  {
+   "day_offset": 30,
+   "device": "desktop",
+   "period": "p29_30",
+   "orders": 72,
+   "revenue_eur": 4946.82,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 33,
+     "revenue_eur": 3008.82
+    }
+   }
+  },
+  {
+   "day_offset": 30,
+   "device": "mobile",
+   "period": "p29_30",
+   "orders": 70,
+   "revenue_eur": 4979.54,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 3027.54
+    }
+   }
+  },
+  {
+   "day_offset": 30,
+   "device": "tablet",
+   "period": "p29_30",
+   "orders": 1,
+   "revenue_eur": 90.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 90.0
+    }
+   }
+  },
+  {
+   "day_offset": 31,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 71,
+   "revenue_eur": 4871.86,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 2933.86
+    }
+   }
+  },
+  {
+   "day_offset": 31,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 68,
+   "revenue_eur": 4840.1,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.1
+    }
+   }
+  },
+  {
+   "day_offset": 31,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 1,
+   "revenue_eur": 95.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 32,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 75,
+   "revenue_eur": 5155.23,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3117.23
+    }
+   }
+  },
+  {
+   "day_offset": 32,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 72,
+   "revenue_eur": 5079.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 3027.0
+    }
+   }
+  },
+  {
+   "day_offset": 32,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 33,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 80,
+   "revenue_eur": 5476.59,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 36,
+     "revenue_eur": 3300.59
+    }
+   }
+  },
+  {
+   "day_offset": 33,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 76,
+   "revenue_eur": 5380.8,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3228.8
+    }
+   }
+  },
+  {
+   "day_offset": 33,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 34,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 71,
+   "revenue_eur": 4871.86,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 2933.86
+    }
+   }
+  },
+  {
+   "day_offset": 34,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 68,
+   "revenue_eur": 4840.1,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.1
+    }
+   }
+  },
+  {
+   "day_offset": 34,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 1,
+   "revenue_eur": 95.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 35,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 79,
+   "revenue_eur": 5384.91,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 35,
+     "revenue_eur": 3208.91
+    }
+   }
+  },
+  {
+   "day_offset": 35,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 75,
+   "revenue_eur": 5318.8,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3228.8
+    }
+   }
+  },
+  {
+   "day_offset": 35,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 36,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 77,
+   "revenue_eur": 5255.23,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3117.23
+    }
+   }
+  },
+  {
+   "day_offset": 36,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 73,
+   "revenue_eur": 5179.9,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 3127.9
+    }
+   }
+  },
+  {
+   "day_offset": 36,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 37,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 74,
+   "revenue_eur": 5063.55,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 33,
+     "revenue_eur": 3025.55
+    }
+   }
+  },
+  {
+   "day_offset": 37,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 70,
+   "revenue_eur": 4979.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 3027.0
+    }
+   }
+  },
+  {
+   "day_offset": 37,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 38,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 71,
+   "revenue_eur": 4871.86,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 2933.86
+    }
+   }
+  },
+  {
+   "day_offset": 38,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 68,
+   "revenue_eur": 4840.1,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.1
+    }
+   }
+  },
+  {
+   "day_offset": 38,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 1,
+   "revenue_eur": 95.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 39,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 75,
+   "revenue_eur": 5155.23,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3117.23
+    }
+   }
+  },
+  {
+   "day_offset": 39,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 71,
+   "revenue_eur": 5041.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 3027.0
+    }
+   }
+  },
+  {
+   "day_offset": 39,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 40,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 80,
+   "revenue_eur": 5476.59,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 36,
+     "revenue_eur": 3300.59
+    }
+   }
+  },
+  {
+   "day_offset": 40,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 76,
+   "revenue_eur": 5380.8,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3228.8
+    }
+   }
+  },
+  {
+   "day_offset": 40,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 41,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 71,
+   "revenue_eur": 4871.86,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 2933.86
+    }
+   }
+  },
+  {
+   "day_offset": 41,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 68,
+   "revenue_eur": 4840.1,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.1
+    }
+   }
+  },
+  {
+   "day_offset": 41,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 42,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 79,
+   "revenue_eur": 5384.91,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 35,
+     "revenue_eur": 3208.91
+    }
+   }
+  },
+  {
+   "day_offset": 42,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 75,
+   "revenue_eur": 5318.8,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3228.8
+    }
+   }
+  },
+  {
+   "day_offset": 42,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 43,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 77,
+   "revenue_eur": 5255.23,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3117.23
+    }
+   }
+  },
+  {
+   "day_offset": 43,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 73,
+   "revenue_eur": 5179.9,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 3127.9
+    }
+   }
+  },
+  {
+   "day_offset": 43,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 44,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 73,
+   "revenue_eur": 5001.55,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 33,
+     "revenue_eur": 3025.55
+    }
+   }
+  },
+  {
+   "day_offset": 44,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 70,
+   "revenue_eur": 4979.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 3027.0
+    }
+   }
+  },
+  {
+   "day_offset": 44,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 2,
+   "revenue_eur": 133.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 45,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 71,
+   "revenue_eur": 4871.86,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 2933.86
+    }
+   }
+  },
+  {
+   "day_offset": 45,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 68,
+   "revenue_eur": 4840.1,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.1
+    }
+   }
+  },
+  {
+   "day_offset": 45,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 46,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 75,
+   "revenue_eur": 5155.23,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3117.23
+    }
+   }
+  },
+  {
+   "day_offset": 46,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 70,
+   "revenue_eur": 4979.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 3027.0
+    }
+   }
+  },
+  {
+   "day_offset": 46,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 47,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 80,
+   "revenue_eur": 5476.59,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 36,
+     "revenue_eur": 3300.59
+    }
+   }
+  },
+  {
+   "day_offset": 47,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 76,
+   "revenue_eur": 5380.8,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3228.8
+    }
+   }
+  },
+  {
+   "day_offset": 47,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 48,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 71,
+   "revenue_eur": 4871.86,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 2933.86
+    }
+   }
+  },
+  {
+   "day_offset": 48,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 68,
+   "revenue_eur": 4840.1,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.1
+    }
+   }
+  },
+  {
+   "day_offset": 48,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 49,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 79,
+   "revenue_eur": 5384.91,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 35,
+     "revenue_eur": 3208.91
+    }
+   }
+  },
+  {
+   "day_offset": 49,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 75,
+   "revenue_eur": 5318.8,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3228.8
+    }
+   }
+  },
+  {
+   "day_offset": 49,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 50,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 77,
+   "revenue_eur": 5255.23,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3117.23
+    }
+   }
+  },
+  {
+   "day_offset": 50,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 73,
+   "revenue_eur": 5179.9,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 3127.9
+    }
+   }
+  },
+  {
+   "day_offset": 50,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 51,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 73,
+   "revenue_eur": 5001.55,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 33,
+     "revenue_eur": 3025.55
+    }
+   }
+  },
+  {
+   "day_offset": 51,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 70,
+   "revenue_eur": 4979.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 3027.0
+    }
+   }
+  },
+  {
+   "day_offset": 51,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 2,
+   "revenue_eur": 133.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 52,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 71,
+   "revenue_eur": 4871.86,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 2933.86
+    }
+   }
+  },
+  {
+   "day_offset": 52,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 68,
+   "revenue_eur": 4840.1,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.1
+    }
+   }
+  },
+  {
+   "day_offset": 52,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 53,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 75,
+   "revenue_eur": 5155.23,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3117.23
+    }
+   }
+  },
+  {
+   "day_offset": 53,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 70,
+   "revenue_eur": 4979.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 3027.0
+    }
+   }
+  },
+  {
+   "day_offset": 53,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 54,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 80,
+   "revenue_eur": 5476.59,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 36,
+     "revenue_eur": 3300.59
+    }
+   }
+  },
+  {
+   "day_offset": 54,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 76,
+   "revenue_eur": 5380.8,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3228.8
+    }
+   }
+  },
+  {
+   "day_offset": 54,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 55,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 71,
+   "revenue_eur": 4871.86,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 2933.86
+    }
+   }
+  },
+  {
+   "day_offset": 55,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 68,
+   "revenue_eur": 4840.1,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.1
+    }
+   }
+  },
+  {
+   "day_offset": 55,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 56,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 78,
+   "revenue_eur": 5346.91,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 35,
+     "revenue_eur": 3208.91
+    }
+   }
+  },
+  {
+   "day_offset": 56,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 75,
+   "revenue_eur": 5318.8,
+   "buckets": {
+    "lt_50": {
+     "orders": 24,
+     "revenue_eur": 912.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3228.8
+    }
+   }
+  },
+  {
+   "day_offset": 56,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 57,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 77,
+   "revenue_eur": 5255.23,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3117.23
+    }
+   }
+  },
+  {
+   "day_offset": 57,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 73,
+   "revenue_eur": 5179.9,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 3127.9
+    }
+   }
+  },
+  {
+   "day_offset": 57,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 58,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 73,
+   "revenue_eur": 5001.54,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 33,
+     "revenue_eur": 3025.54
+    }
+   }
+  },
+  {
+   "day_offset": 58,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 69,
+   "revenue_eur": 4878.1,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.1
+    }
+   }
+  },
+  {
+   "day_offset": 58,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 1,
+   "revenue_eur": 95.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 59,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 71,
+   "revenue_eur": 4871.86,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 2933.86
+    }
+   }
+  },
+  {
+   "day_offset": 59,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 68,
+   "revenue_eur": 4840.1,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2926.1
+    }
+   }
+  },
+  {
+   "day_offset": 59,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 60,
+   "device": "desktop",
+   "period": "p31_60",
+   "orders": 75,
+   "revenue_eur": 5155.23,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3117.23
+    }
+   }
+  },
+  {
+   "day_offset": 60,
+   "device": "mobile",
+   "period": "p31_60",
+   "orders": 70,
+   "revenue_eur": 4979.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 3027.0
+    }
+   }
+  },
+  {
+   "day_offset": 60,
+   "device": "tablet",
+   "period": "p31_60",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 61,
+   "device": "desktop",
+   "period": "p61_64",
+   "orders": 78,
+   "revenue_eur": 5342.45,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 21,
+     "revenue_eur": 1302.0
+    },
+    "gt_75": {
+     "orders": 35,
+     "revenue_eur": 3204.45
+    }
+   }
+  },
+  {
+   "day_offset": 61,
+   "device": "mobile",
+   "period": "p61_64",
+   "orders": 74,
+   "revenue_eur": 5281.38,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 32,
+     "revenue_eur": 3229.38
+    }
+   }
+  },
+  {
+   "day_offset": 61,
+   "device": "tablet",
+   "period": "p61_64",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 62,
+   "device": "desktop",
+   "period": "p61_64",
+   "orders": 70,
+   "revenue_eur": 4776.22,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 2838.22
+    }
+   }
+  },
+  {
+   "day_offset": 62,
+   "device": "mobile",
+   "period": "p61_64",
+   "orders": 66,
+   "revenue_eur": 4677.7,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 28,
+     "revenue_eur": 2825.7
+    }
+   }
+  },
+  {
+   "day_offset": 62,
+   "device": "tablet",
+   "period": "p61_64",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 63,
+   "device": "desktop",
+   "period": "p61_64",
+   "orders": 77,
+   "revenue_eur": 5280.44,
+   "buckets": {
+    "lt_50": {
+     "orders": 22,
+     "revenue_eur": 836.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 35,
+     "revenue_eur": 3204.44
+    }
+   }
+  },
+  {
+   "day_offset": 63,
+   "device": "mobile",
+   "period": "p61_64",
+   "orders": 73,
+   "revenue_eur": 5180.46,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 3128.46
+    }
+   }
+  },
+  {
+   "day_offset": 63,
+   "device": "tablet",
+   "period": "p61_64",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 64,
+   "device": "desktop",
+   "period": "p61_64",
+   "orders": 75,
+   "revenue_eur": 5150.89,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 20,
+     "revenue_eur": 1240.0
+    },
+    "gt_75": {
+     "orders": 34,
+     "revenue_eur": 3112.89
+    }
+   }
+  },
+  {
+   "day_offset": 64,
+   "device": "mobile",
+   "period": "p61_64",
+   "orders": 73,
+   "revenue_eur": 5180.46,
+   "buckets": {
+    "lt_50": {
+     "orders": 23,
+     "revenue_eur": 874.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 3128.46
+    }
+   }
+  },
+  {
+   "day_offset": 64,
+   "device": "tablet",
+   "period": "p61_64",
+   "orders": 2,
+   "revenue_eur": 133.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 365,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 69,
+   "revenue_eur": 4767.66,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 2853.66
+    }
+   }
+  },
+  {
+   "day_offset": 365,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 62,
+   "revenue_eur": 4184.9,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 777.0
+    },
+    "50_75": {
+     "orders": 16,
+     "revenue_eur": 976.0
+    },
+    "gt_75": {
+     "orders": 25,
+     "revenue_eur": 2431.9
+    }
+   }
+  },
+  {
+   "day_offset": 365,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 366,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 64,
+   "revenue_eur": 4439.42,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 722.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 28,
+     "revenue_eur": 2663.42
+    }
+   }
+  },
+  {
+   "day_offset": 366,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 58,
+   "revenue_eur": 3952.62,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 703.0
+    },
+    "50_75": {
+     "orders": 15,
+     "revenue_eur": 915.0
+    },
+    "gt_75": {
+     "orders": 24,
+     "revenue_eur": 2334.62
+    }
+   }
+  },
+  {
+   "day_offset": 366,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 1,
+   "revenue_eur": 38.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 367,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 64,
+   "revenue_eur": 4439.42,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 722.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 28,
+     "revenue_eur": 2663.42
+    }
+   }
+  },
+  {
+   "day_offset": 367,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 58,
+   "revenue_eur": 3952.62,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 703.0
+    },
+    "50_75": {
+     "orders": 15,
+     "revenue_eur": 915.0
+    },
+    "gt_75": {
+     "orders": 24,
+     "revenue_eur": 2334.62
+    }
+   }
+  },
+  {
+   "day_offset": 367,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 368,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 67,
+   "revenue_eur": 4634.54,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2758.54
+    }
+   }
+  },
+  {
+   "day_offset": 368,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 61,
+   "revenue_eur": 4147.9,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 740.0
+    },
+    "50_75": {
+     "orders": 16,
+     "revenue_eur": 976.0
+    },
+    "gt_75": {
+     "orders": 25,
+     "revenue_eur": 2431.9
+    }
+   }
+  },
+  {
+   "day_offset": 368,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 369,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 71,
+   "revenue_eur": 4924.78,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 2948.78
+    }
+   }
+  },
+  {
+   "day_offset": 369,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 64,
+   "revenue_eur": 4343.17,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 777.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1037.0
+    },
+    "gt_75": {
+     "orders": 26,
+     "revenue_eur": 2529.17
+    }
+   }
+  },
+  {
+   "day_offset": 369,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 370,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 64,
+   "revenue_eur": 4439.41,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 722.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 28,
+     "revenue_eur": 2663.41
+    }
+   }
+  },
+  {
+   "day_offset": 370,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 58,
+   "revenue_eur": 3952.62,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 703.0
+    },
+    "50_75": {
+     "orders": 15,
+     "revenue_eur": 915.0
+    },
+    "gt_75": {
+     "orders": 24,
+     "revenue_eur": 2334.62
+    }
+   }
+  },
+  {
+   "day_offset": 370,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 371,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 71,
+   "revenue_eur": 4924.78,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 2948.78
+    }
+   }
+  },
+  {
+   "day_offset": 371,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 63,
+   "revenue_eur": 4282.17,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 777.0
+    },
+    "50_75": {
+     "orders": 16,
+     "revenue_eur": 976.0
+    },
+    "gt_75": {
+     "orders": 26,
+     "revenue_eur": 2529.17
+    }
+   }
+  },
+  {
+   "day_offset": 371,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 372,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 69,
+   "revenue_eur": 4767.66,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 30,
+     "revenue_eur": 2853.66
+    }
+   }
+  },
+  {
+   "day_offset": 372,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 62,
+   "revenue_eur": 4184.9,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 777.0
+    },
+    "50_75": {
+     "orders": 16,
+     "revenue_eur": 976.0
+    },
+    "gt_75": {
+     "orders": 25,
+     "revenue_eur": 2431.9
+    }
+   }
+  },
+  {
+   "day_offset": 372,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 373,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 64,
+   "revenue_eur": 4439.41,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 722.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 28,
+     "revenue_eur": 2663.41
+    }
+   }
+  },
+  {
+   "day_offset": 373,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 58,
+   "revenue_eur": 3952.62,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 703.0
+    },
+    "50_75": {
+     "orders": 15,
+     "revenue_eur": 915.0
+    },
+    "gt_75": {
+     "orders": 24,
+     "revenue_eur": 2334.62
+    }
+   }
+  },
+  {
+   "day_offset": 373,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 374,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 64,
+   "revenue_eur": 4439.41,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 722.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 28,
+     "revenue_eur": 2663.41
+    }
+   }
+  },
+  {
+   "day_offset": 374,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 58,
+   "revenue_eur": 3952.62,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 703.0
+    },
+    "50_75": {
+     "orders": 15,
+     "revenue_eur": 915.0
+    },
+    "gt_75": {
+     "orders": 24,
+     "revenue_eur": 2334.62
+    }
+   }
+  },
+  {
+   "day_offset": 374,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 375,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 67,
+   "revenue_eur": 4634.54,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 760.0
+    },
+    "50_75": {
+     "orders": 18,
+     "revenue_eur": 1116.0
+    },
+    "gt_75": {
+     "orders": 29,
+     "revenue_eur": 2758.54
+    }
+   }
+  },
+  {
+   "day_offset": 375,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 61,
+   "revenue_eur": 4147.9,
+   "buckets": {
+    "lt_50": {
+     "orders": 20,
+     "revenue_eur": 740.0
+    },
+    "50_75": {
+     "orders": 16,
+     "revenue_eur": 976.0
+    },
+    "gt_75": {
+     "orders": 25,
+     "revenue_eur": 2431.9
+    }
+   }
+  },
+  {
+   "day_offset": 375,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 2,
+   "revenue_eur": 133.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 376,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 71,
+   "revenue_eur": 4924.78,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 2948.78
+    }
+   }
+  },
+  {
+   "day_offset": 376,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 64,
+   "revenue_eur": 4343.17,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 777.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1037.0
+    },
+    "gt_75": {
+     "orders": 26,
+     "revenue_eur": 2529.17
+    }
+   }
+  },
+  {
+   "day_offset": 376,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  },
+  {
+   "day_offset": 377,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 64,
+   "revenue_eur": 4439.41,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 722.0
+    },
+    "50_75": {
+     "orders": 17,
+     "revenue_eur": 1054.0
+    },
+    "gt_75": {
+     "orders": 28,
+     "revenue_eur": 2663.41
+    }
+   }
+  },
+  {
+   "day_offset": 377,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 58,
+   "revenue_eur": 3952.62,
+   "buckets": {
+    "lt_50": {
+     "orders": 19,
+     "revenue_eur": 703.0
+    },
+    "50_75": {
+     "orders": 15,
+     "revenue_eur": 915.0
+    },
+    "gt_75": {
+     "orders": 24,
+     "revenue_eur": 2334.62
+    }
+   }
+  },
+  {
+   "day_offset": 377,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 0,
+   "revenue_eur": 0.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "50_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    },
+    "gt_75": {
+     "orders": 0,
+     "revenue_eur": 0.0
+    }
+   }
+  },
+  {
+   "day_offset": 378,
+   "device": "desktop",
+   "period": "sply",
+   "orders": 71,
+   "revenue_eur": 4924.78,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 798.0
+    },
+    "50_75": {
+     "orders": 19,
+     "revenue_eur": 1178.0
+    },
+    "gt_75": {
+     "orders": 31,
+     "revenue_eur": 2948.78
+    }
+   }
+  },
+  {
+   "day_offset": 378,
+   "device": "mobile",
+   "period": "sply",
+   "orders": 63,
+   "revenue_eur": 4282.17,
+   "buckets": {
+    "lt_50": {
+     "orders": 21,
+     "revenue_eur": 777.0
+    },
+    "50_75": {
+     "orders": 16,
+     "revenue_eur": 976.0
+    },
+    "gt_75": {
+     "orders": 26,
+     "revenue_eur": 2529.17
+    }
+   }
+  },
+  {
+   "day_offset": 378,
+   "device": "tablet",
+   "period": "sply",
+   "orders": 3,
+   "revenue_eur": 195.0,
+   "buckets": {
+    "lt_50": {
+     "orders": 1,
+     "revenue_eur": 38.0
+    },
+    "50_75": {
+     "orders": 1,
+     "revenue_eur": 62.0
+    },
+    "gt_75": {
+     "orders": 1,
+     "revenue_eur": 95.0
+    }
+   }
+  }
+ ]
+}

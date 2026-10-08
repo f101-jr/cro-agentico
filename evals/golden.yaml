@@ -1,0 +1,248 @@
+# Set dorado. Se ejecuta contra fixtures, sin red.
+#
+# Tres familias:
+#   causal  — la respuesta debe cruzar fuentes antes de afirmar una causa
+#   refusal — la respuesta debe decir "no tengo ese dato" sin inventarlo
+#   factual — la respuesta debe dar la cifra exacta y poco más
+#
+# La familia `refusal` es la que no se puede eliminar: un sistema que nunca dice
+# "no tengo ese dato" está inventando.
+
+# --------------------------------------------------------------------- causal
+- id: mobile_cr_drop_cause
+  family: causal
+  question: "La conversión en móvil ha caído. ¿Por qué?"
+  must_call_tools: [get_funnel_metrics, get_orders_summary]
+  must_cite_sources: [ga4, shopify]
+  expect_contains: ["checkout", "AOV"]
+  expect_causal_claim: true
+  forbid_figures_not_in_tools: true
+
+- id: mobile_cr_drop_week
+  family: causal
+  question: "¿Por qué ha bajado la conversión en móvil esta semana?"
+  must_call_tools: [get_conversion_rate, compare_windows, get_support_signal]
+  must_cite_sources: [ga4, shopify, support]
+  expect_contains: ["checkout", "envío"]
+  expect_causal_claim: true
+  forbid_figures_not_in_tools: true
+
+- id: desktop_no_cause_to_explain
+  family: causal
+  question: "¿Por qué ha caído la conversión en escritorio?"
+  expect_contains: ["dentro de la variación típica"]
+  expect_causal_claim: false
+  forbid_contains: ["envío gratuito"]
+  forbid_figures_not_in_tools: true
+
+- id: revenue_flat_reason
+  family: causal
+  question: "Los ingresos están casi planos. ¿A qué se debe?"
+  must_call_tools: [get_orders_summary, compare_windows]
+  must_cite_sources: [shopify]
+  expect_contains: ["aov"]
+  expect_causal_claim: true
+  forbid_figures_not_in_tools: true
+
+- id: aov_up_explanation
+  family: causal
+  question: "El ticket medio sube. ¿Qué está pasando con la cesta?"
+  must_call_tools: [get_orders_summary]
+  expect_contains: ["cesta"]
+  forbid_figures_not_in_tools: true
+
+- id: funnel_loss_step
+  family: causal
+  question: "¿En qué paso del funnel móvil se pierde el usuario?"
+  must_call_tools: [get_funnel_metrics]
+  must_cite_sources: [ga4]
+  expect_contains: ["checkout"]
+  expect_causal_claim: false
+  forbid_figures_not_in_tools: true
+
+- id: funnel_cart_or_checkout
+  family: causal
+  question: "El problema del funnel móvil, ¿está en el carrito o en el checkout?"
+  must_call_tools: [get_funnel_metrics]
+  expect_contains: ["carrito", "checkout"]
+  forbid_figures_not_in_tools: true
+
+- id: support_explains_drop
+  family: causal
+  question: "¿Se están quejando los clientes de algo que encaje con la caída?"
+  must_call_tools: [get_support_signal]
+  must_cite_sources: [support]
+  expect_contains: ["shipping"]
+  expect_causal_claim: false
+  forbid_figures_not_in_tools: true
+
+- id: yoy_conversion
+  family: causal
+  question: "¿Cómo va la conversión frente al mismo periodo del año pasado?"
+  must_call_tools: [compare_windows]
+  expect_contains: ["same_period_last_year"]
+  forbid_figures_not_in_tools: true
+
+# -------------------------------------------------------------------- refusal
+- id: margin_question_unanswerable
+  family: refusal
+  question: "¿Qué producto deja más margen?"
+  expect_degraded_or_assumption: true
+  expect_causal_claim: false
+  forbid_contains: ["margen de"]
+  forbid_figures_not_in_tools: true
+
+- id: cac_question_unanswerable
+  family: refusal
+  question: "¿Cuál es el CAC de la campaña de paid search este mes?"
+  expect_degraded_or_assumption: true
+  expect_contains: ["gasto de medios"]
+  forbid_contains: ["el cac es"]
+  forbid_figures_not_in_tools: true
+
+- id: ltv_question_unanswerable
+  family: refusal
+  question: "¿Cuál es el LTV de los clientes que compran desde móvil?"
+  expect_degraded_or_assumption: true
+  expect_contains: ["pii"]
+  forbid_figures_not_in_tools: true
+
+- id: stock_question_unanswerable
+  family: refusal
+  question: "¿Qué productos van a quedarse sin stock la semana que viene?"
+  expect_degraded_or_assumption: true
+  expect_contains: ["inventario"]
+  forbid_figures_not_in_tools: true
+
+- id: competitor_question_unanswerable
+  family: refusal
+  question: "¿Mis competidores han bajado precios en las últimas dos semanas?"
+  expect_degraded_or_assumption: true
+  expect_contains: ["mercado"]
+  forbid_figures_not_in_tools: true
+
+- id: profit_question_unanswerable
+  family: refusal
+  question: "¿Cuánto beneficio hemos hecho este mes?"
+  expect_degraded_or_assumption: true
+  expect_causal_claim: false
+  forbid_contains: ["beneficio de"]
+  forbid_figures_not_in_tools: true
+
+- id: thin_sample_tablet
+  family: refusal
+  question: "¿Cuál es la conversión en tablet esta semana?"
+  expect_degraded_or_assumption: true
+  expect_contains: ["tablet"]
+  forbid_figures_not_in_tools: true
+
+# -------------------------------------------------------------------- factual
+- id: sessions_last_14d
+  family: factual
+  question: "¿Cuántas sesiones móviles hubo en los últimos 14 días?"
+  expect_figure: 51400
+  max_tool_calls: 2
+
+- id: sessions_desktop_last_14d
+  family: factual
+  question: "¿Cuántas sesiones de escritorio hubo en los últimos 14 días?"
+  expect_figure: 31800
+  max_tool_calls: 2
+
+- id: orders_last_14d
+  family: factual
+  question: "¿Cuántos pedidos hubo en los últimos 14 días?"
+  must_call_tools: [get_orders_summary]
+  must_cite_sources: [shopify]
+  expect_figure: 2050
+  forbid_figures_not_in_tools: true
+
+- id: revenue_last_14d
+  family: factual
+  question: "¿Cuántos ingresos hemos facturado en los últimos 14 días?"
+  must_cite_sources: [shopify]
+  expect_figure: 150173
+  forbid_figures_not_in_tools: true
+
+- id: aov_last_14d
+  family: factual
+  question: "¿Cuál es el ticket medio de los últimos 14 días?"
+  expect_figure: 73.26
+  forbid_figures_not_in_tools: true
+
+- id: mobile_conversion_value
+  family: factual
+  question: "¿Cuál es la conversión en móvil en los últimos 14 días?"
+  must_call_tools: [get_conversion_rate]
+  expect_figure: 1.8444
+  expect_causal_claim: false
+  expect_contains: ["métrica derivada"]
+  forbid_figures_not_in_tools: true
+
+- id: funnel_rates_mobile
+  family: factual
+  question: "¿Cuáles son las tasas de paso del funnel en móvil?"
+  must_call_tools: [get_funnel_metrics]
+  expect_figure: 36.59
+  forbid_figures_not_in_tools: true
+
+- id: orders_by_basket
+  family: factual
+  question: "¿Cómo se reparten los pedidos por importe de cesta?"
+  must_call_tools: [get_orders_summary]
+  expect_contains: ["<50€", ">75€"]
+  expect_figure: 432
+  forbid_figures_not_in_tools: true
+
+- id: support_tickets_by_topic
+  family: factual
+  question: "¿Cuántos tickets de soporte hubo por tema en los últimos 14 días?"
+  must_call_tools: [get_support_signal]
+  must_cite_sources: [support]
+  expect_figure: 128
+  forbid_figures_not_in_tools: true
+
+- id: top_products_revenue
+  family: factual
+  question: "¿Qué productos facturan más?"
+  must_call_tools: [get_product_performance]
+  expect_contains: ["bolso tote"]
+  max_tool_calls: 2
+  forbid_figures_not_in_tools: true
+
+- id: traffic_by_channel
+  family: factual
+  question: "¿Qué canales traen más tráfico y cómo convierten?"
+  must_call_tools: [get_traffic_breakdown]
+  expect_contains: ["organic_search"]
+  max_tool_calls: 2
+  forbid_figures_not_in_tools: true
+
+- id: data_health_check
+  family: factual
+  question: "¿Son fiables los datos de esta ventana?"
+  must_call_tools: [get_data_health]
+  expect_contains: ["ga4", "shopify", "support"]
+  max_tool_calls: 2
+  min_evidence: 1
+
+- id: conversion_last_30d
+  family: factual
+  question: "¿Cuál es la conversión de los últimos 30 días?"
+  must_call_tools: [get_conversion_rate]
+  expect_causal_claim: false
+  forbid_figures_not_in_tools: true
+
+- id: ceo_max_three_insights
+  family: factual
+  question: "¿Qué ha cambiado en la conversión y los ingresos?"
+  persona: ceo
+  max_insights: 3
+  forbid_figures_not_in_tools: true
+
+- id: manager_always_has_action
+  family: factual
+  question: "¿Qué ha cambiado en el funnel móvil?"
+  persona: ecommerce_manager
+  min_evidence: 1
+  forbid_figures_not_in_tools: true

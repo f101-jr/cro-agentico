@@ -1,0 +1,85 @@
+{
+ "items_per_order": 1.6,
+ "products": [
+  {
+   "id": "P-001",
+   "title": "Bolso tote de lona",
+   "product_type": "bags",
+   "price_eur": 89.0,
+   "unit_share_pre": 0.12,
+   "unit_share_post": 0.14
+  },
+  {
+   "id": "P-002",
+   "title": "Cinturón de piel",
+   "product_type": "accessories",
+   "price_eur": 45.0,
+   "unit_share_pre": 0.1,
+   "unit_share_post": 0.09
+  },
+  {
+   "id": "P-003",
+   "title": "Zapatillas urbanas",
+   "product_type": "footwear",
+   "price_eur": 79.0,
+   "unit_share_pre": 0.11,
+   "unit_share_post": 0.12
+  },
+  {
+   "id": "P-004",
+   "title": "Camiseta algodón orgánico",
+   "product_type": "apparel",
+   "price_eur": 29.0,
+   "unit_share_pre": 0.16,
+   "unit_share_post": 0.12
+  },
+  {
+   "id": "P-005",
+   "title": "Sudadera con capucha",
+   "product_type": "apparel",
+   "price_eur": 59.0,
+   "unit_share_pre": 0.12,
+   "unit_share_post": 0.14
+  },
+  {
+   "id": "P-006",
+   "title": "Mochila 20L",
+   "product_type": "bags",
+   "price_eur": 75.0,
+   "unit_share_pre": 0.09,
+   "unit_share_post": 0.11
+  },
+  {
+   "id": "P-007",
+   "title": "Gorra con logo",
+   "product_type": "accessories",
+   "price_eur": 25.0,
+   "unit_share_pre": 0.08,
+   "unit_share_post": 0.06
+  },
+  {
+   "id": "P-008",
+   "title": "Pack 3 calcetines",
+   "product_type": "accessories",
+   "price_eur": 19.0,
+   "unit_share_pre": 0.11,
+   "unit_share_post": 0.08
+  },
+  {
+   "id": "P-009",
+   "title": "Chaqueta ligera",
+   "product_type": "apparel",
+   "price_eur": 119.0,
+   "unit_share_pre": 0.05,
+   "unit_share_post": 0.08
+  },
+  {
+   "id": "P-010",
+   "title": "Bufanda de lana",
+   "product_type": "accessories",
+   "price_eur": 39.0,
+   "unit_share_pre": 0.06,
+   "unit_share_post": 0.06
+  }
+ ]
+}

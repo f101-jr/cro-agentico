@@ -1,0 +1,25 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv venv --python 3.12
+      - run: uv pip install -e ".[dev]"
+      - name: Invariantes del dataset
+        run: uv run python -m fixtures.validate
+      - name: Tests
+        run: uv run pytest -q
+      - name: Set dorado (fixtures, sin red)
+        run: uv run python -m evals.run --json evals/reports/ci.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-report
+          path: evals/reports/ci.json
