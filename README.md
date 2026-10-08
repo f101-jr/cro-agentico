@@ -4,9 +4,17 @@ Backend que responde preguntas abiertas de negocio cruzando varias fuentes de
 datos, mediante un LLM que decide qué consultar. Expone los resultados por API
 para que un frontend externo los renderice.
 
-Este repositorio es el sistema que se presentó en **Conversion Talks**: el código
-completo del que salieron los ejemplos de la charla, con sus tests y su set de
-evaluación.
+## Sobre el workshop
+
+Este repositorio es el sistema que se construye en **CRO Agéntico: desarrollo con
+IA de un sistema de Insights Inteligente para tu negocio**, workshop de
+[Conversion Talks](https://conversiontalks.com/workshops/) impartido por **Joaquín
+Ruiz**, AI & Innovation Director.
+
+El workshop recorre el camino completo: de una pregunta de negocio en lenguaje
+natural a una respuesta que cruza tres fuentes, nombra una causa y deja cada
+cifra trazada hasta la herramienta que la devolvió. Aquí está el código final,
+con sus tests y su set de evaluación.
 
 **Lo que no hace:** no renderiza HTML, no escribe en ninguna fuente, no calcula
 aritmética dentro del LLM, no genera el layout del cuadro de mando, no autentica
